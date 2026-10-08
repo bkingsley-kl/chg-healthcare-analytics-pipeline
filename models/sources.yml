@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sales_ops
+    database: raw_crm_data
+    schema: sales_ops
+    tables:
+      - name: src_crm_deals
